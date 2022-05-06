@@ -1,6 +1,6 @@
 # :zap: Nuxt Resume
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4d0ab666-0fbe-4fbd-864f-aeeb7175505e/deploy-status)](https://app.netlify.com/sites/modern-resume/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/67f0f105-00e5-4537-977b-3809823d1cc3/deploy-status)](https://app.netlify.com/sites/modern-resume/deploys)
 
 :clipboard: A modern simple static resume template and theme. Powered by Nuxt & Netlify.  
 
@@ -28,11 +28,12 @@
 - [x] Setup with nuxt :construction:
 - [x] Replace bootstrap with tailwindcss :art:
 - [x] Replace font-awesome icons with vectors :heart_decoration:
-- [ ] Split up the page sections into components
+- [x] Split up the page sections into components
 - [ ] Implement nuxt/content & netlify cms
 - [ ] Add dark mood support :moon:
 - [ ] Make a video demo & share with community :arrow_forward:
 - [ ] Add metadata
+- [ ] Optimize CSS
 - [ ] Score 100 in lighthouse :vertical_traffic_light:
 - [ ] Optimize the printable version :printer:
 
