@@ -27,7 +27,7 @@
 
 - [x] Setup with nuxt :construction:
 - [x] Replace bootstrap with tailwindcss :art:
-- [ ] Replace font-awesome icons with vectors :heart_decoration:
+- [x] Replace font-awesome icons with vectors :heart_decoration:
 - [ ] Split up the page sections into components
 - [ ] Implement nuxt/content & netlify cms
 - [ ] Add dark mood support :moon:

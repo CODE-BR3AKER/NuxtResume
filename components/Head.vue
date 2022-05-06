@@ -17,7 +17,7 @@
               href="https://github.com/CODE-BR3AKER"
               class="button button--sacnite button--round-l"
             >
-              <i class="fab fa-github" title="Github link"></i>
+              <IconGithub/>
             </a>
           </li>
           <li>
@@ -26,7 +26,7 @@
               href="https://www.instagram.com/"
               class="button button--sacnite button--round-l"
             >
-              <i class="fab fa-instagram" title="Instagram link"></i>
+              <IconInstagram/>
             </a>
           </li>
           <li>
@@ -35,7 +35,7 @@
               href="https://www.linkedin.com/in/"
               class="button button--sacnite button--round-l"
             >
-              <i class="fab fa-linkedin" title="Linkedin link"></i>
+              <IconLinkedin/>
             </a>
           </li>
           <li>
@@ -44,7 +44,7 @@
               href="https://twitter.com/zack_dotcom"
               class="button button--sacnite button--round-l"
             >
-              <i class="fab fa-twitter" title="Twitter link"></i>
+              <IconTwitter/>
             </a>
           </li>
           <li>
@@ -53,7 +53,7 @@
               href="https://www.youtube.com/"
               class="button button--sacnite button--round-l"
             >
-              <i class="fab fa-youtube" title="Youtube link"></i>
+              <IconYoutube/>
             </a>
           </li>
         </ul>
