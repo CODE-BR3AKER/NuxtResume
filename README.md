@@ -6,7 +6,7 @@
 
 *Host your own resume on Github for **free!***
 
-[View Demo](https://nuxt-resume.netlify.app/)
+[View Demo](https://modern-resume.netlify.app/)
 
 ----
 
