@@ -11,7 +11,7 @@ collections:
     files:
       - label: 'Config'
         name: 'config'
-        file: 'content/config.md'
+        file: 'content/genral/config.md'
         fields:
           - {label: 'Name', name: 'name', widget: string}
           - {label: 'Title', name: 'title', widget: string}
@@ -35,7 +35,7 @@ collections:
               - {label: 'Extra', name: 'extra', widget: boolean}
       - label: "About section"
         name: "about"
-        file: "content/about.md"
+        file: "content/general/bout.md"
         fields:
           - {label: 'Description', name: 'description', widget: string}
           - {label: 'Skill_1', name: 'skill_1', widget: string}
