@@ -4,8 +4,8 @@
       <div
         class="pr-4 pl-42 md:w-1/2 pr-4 pl-4 lg:w-1/2 pr-4 pl-4 xl:w-2/3 pr-4 pl-4 header-left"
       >
-        <h1>Brett Harris</h1>
-        <h2>Senior Network System Administrator</h2>
+        <h1>{{name}}</h1>
+        <h2> {{role}}</h2>
       </div>
       <div
         class="pr-4 pl-42 md:w-1/2 pr-4 pl-4 lg:w-1/2 pr-4 pl-4 xl:w-1/3 pr-4 pl-4 header-right"
@@ -14,7 +14,7 @@
           <li>
             <a
               target="_blank"
-              href="https://github.com/CODE-BR3AKER"
+              :href="github"
               class="button button--sacnite button--round-l"
             >
               <IconGithub/>
@@ -23,7 +23,7 @@
           <li>
             <a
               target="_blank"
-              href="https://www.instagram.com/"
+              :href="instagram"
               class="button button--sacnite button--round-l"
             >
               <IconInstagram/>
@@ -32,7 +32,7 @@
           <li>
             <a
               target="_blank"
-              href="https://www.linkedin.com/in/"
+              :href="linkedin"
               class="button button--sacnite button--round-l"
             >
               <IconLinkedin/>
@@ -41,7 +41,7 @@
           <li>
             <a
               target="_blank"
-              href="https://twitter.com/zack_dotcom"
+              :href="twitter"
               class="button button--sacnite button--round-l"
             >
               <IconTwitter/>
@@ -50,7 +50,7 @@
           <li>
             <a
               target="_blank"
-              href="https://www.youtube.com/"
+              :href="youtube"
               class="button button--sacnite button--round-l"
             >
               <IconYoutube/>
@@ -59,20 +59,35 @@
         </ul>
         <p>
           Email:
-          <a href="mailto:example@email.com" target="_blank"
-            >example@email.com</a
+          <a :href="`mailto:` + mail" target="_blank"
+            >{{mail}}</a
           >
         </p>
         <p>
           Web:
           <a
-            href="https://rebrand.ly/zackdev"
+            :href="web"
             target="_blank"
             class=""
-            >https://rebrand.ly/zackdev</a
+            > {{web}}</a
           >
         </p>
       </div>
     </div>
   </header>
 </template>
+<script>
+export default {
+  props: {
+    name: String,
+    role: String,
+    github: String,
+    instagram: String,
+    linkedin: String,
+    twitter: String,
+    youtube: String,
+    mail: String,
+    web: String,
+  }
+}
+</script>

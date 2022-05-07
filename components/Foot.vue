@@ -1,10 +1,13 @@
 <template>
   <footer class="container mx-auto footer-container">
     <p>
-      Zack -
-      <a href="mailto:example@email.com" target="_blank"
-        >example@email.com</a
+      <a :href="`mailto:` + mail" target="_blank">{{ mail }}</a
       >&nbsp;- References on request
     </p>
   </footer>
 </template>
+<script>
+export default {
+  props: ["mail"],
+};
+</script>
