@@ -34,8 +34,11 @@
 - [ ] Make a video demo & share with community :arrow_forward:
 - [ ] Add metadata
 - [ ] Optimize CSS
-- [ ] Score 100 in lighthouse :vertical_traffic_light:
 - [ ] Optimize the printable version :printer:
+- [ ] Emoji support
+- [ ] Score 100 in lighthouse :vertical_traffic_light:
+- [ ] More customizable sections
+
 
 
 ----
