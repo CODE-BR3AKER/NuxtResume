@@ -9,7 +9,7 @@ collections:
   - label: 'General'
     name: 'General'
     files:
-      - label: 'Config'
+      - label: 'Config ⚙️'
         name: 'config'
         file: 'content/config.md'
         fields:
@@ -90,4 +90,4 @@ collections:
         name: 'extra'
         file: 'content/extra.md'
         fields:
-          - {label: 'Hobbies', name: 'hobbies', widget: markdown}
+          - {label: 'Body', name: 'body', widget: markdown}
