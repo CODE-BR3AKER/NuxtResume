@@ -6,6 +6,41 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - label: 'General'
+    name: 'General'
+    files:
+      - label: 'Config'
+        name: 'config'
+        file: 'content/config.md'
+        fields:
+          - {label: 'Name', name: 'name', widget: string}
+          - {label: 'Title', name: 'title', widget: string}
+          - {label: 'Email', name: 'email', widget: string}
+          - label: Social
+            name: social
+            widget: list
+            fields:
+              - {label: 'Github', name: 'github', widget: string}
+              - {label: 'Instagram', name: 'instagram', widget: string}
+              - {label: 'Linkedin', name: 'linkedin', widget: string}
+              - {label: 'Twitter', name: 'twitter', widget: string}
+              - {label: 'Youtube', name: 'youtube', widget: string}
+          - label: Sections
+            name: sections
+            widget: list
+            fields:
+              - {label: 'Projects', name: 'projects', widget: boolean}
+              - {label: 'Experience', name: 'experience', widget: boolean}
+              - {label: 'Education', name: 'education', widget: boolean}
+              - {label: 'Extra', name: 'extra', widget: boolean}
+      - label: "About section"
+        name: "about"
+        file: "content/about.md"
+        fields:
+          - {label: 'Description', name: 'description', widget: string}
+          - {label: 'Skill_1', name: 'skill_1', widget: string}
+          - {label: 'Skill_2', name: 'skill_2', widget: string}
+          - {label: 'Picture', name: 'picture', widget: image}
   - name: 'projects'
     label: 'Projects'
     folder: 'content/projects'
