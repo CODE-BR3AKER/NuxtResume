@@ -1,26 +1,26 @@
 <template>
   <div class="container mx-auto list-container">
     <h3>Experience</h3>
-    <div class="flex flex-col md:flex-row layout layout-left">
+    <div class="flex flex-col md:flex-row layout layout-left" v-for="(job,id) in jobs" :key="id">
       <div
         class="pr-4 pl-42 md:w-1/3 pr-4 pl-4 lg:w-1/4 pr-4 pl-4 :flex-growprint-12 details"
       >
-        <h4>{{ company }}</h4>
+        <h4>{{ job.company }}</h4>
         <p>
-          <b>{{ title }}</b>
+          <b>{{ job.title }}</b>
         </p>
-        <p>{{ period }}</p>
-        <a :href="`https://` + website" target="_blank" class="link">{{ website }}</a>
+        <p>{{ job.period }}</p>
+        <a :href="`https://` + job.website" target="_blank" class="link">{{ job.website }}</a>
         <p class="no-print aditional-links"></p>
       </div>
       <div
         class="pr-4 pl-42 md:w-2/3 pr-4 pl-4 lg:w-3/4 pr-4 pl-4 :flex-growprint-12 content"
       >
         <p class="quote">
-          {{ highlight }}
+          {{ job.highlight }}
         </p>
         <p>
-          {{ description }}
+          {{ job.description }}
         </p>
       </div>
     </div>
@@ -28,6 +28,6 @@
 </template>
 <script>
 export default {
-  props: ["company", "title", "period", "website", "highlight", "description"],
+  props: ["jobs"],
 };
 </script>

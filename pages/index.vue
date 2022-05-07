@@ -21,27 +21,15 @@
         />
         <Projects
           v-if="config.sections.projects"
-          :name="projects.project.name"
-          :link="projects.project.link"
-          :description="projects.project.description"
-          :highlight="projects.project.highlight"
+          :projects="projects"
         />
         <Experience
           v-if="config.sections.experience"
-          :company="experience.job.company"
-          :title="experience.job.title"
-          :period="experience.job.period"
-          :website="experience.job.website"
-          :highlight="experience.job.highlight"
-          :description="experience.job.description"
+          :jobs="experience"
         />
         <Education
           v-if="config.sections.education"
-          :name="education.university.name"
-          :period="education.university.period"
-          :degree="education.university.degree"
-          :highlight="education.university.highlight"
-          :description="education.university.description"
+          :universities="education"
         />
         <Extra v-if="config.sections.extra" :extra="extra" />
       </div>
