@@ -18,7 +18,7 @@ collections:
           - {label: 'Email', name: 'email', widget: string}
           - label: Social
             name: social
-            widget: list
+            widget: object
             fields:
               - {label: 'Github', name: 'github', widget: string}
               - {label: 'Instagram', name: 'instagram', widget: string}
@@ -27,7 +27,7 @@ collections:
               - {label: 'Youtube', name: 'youtube', widget: string}
           - label: Sections
             name: sections
-            widget: list
+            widget: object
             fields:
               - {label: 'Projects', name: 'projects', widget: boolean}
               - {label: 'Experience', name: 'experience', widget: boolean}
@@ -83,3 +83,11 @@ collections:
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Period', name: 'period', widget: 'string' }
       - { label: 'Website', name: 'website', widget: 'string' }
+  - label: 'Extra'
+    name: 'Extra'
+    files:
+      - label: 'Extra'
+        name: 'extra'
+        file: 'content/extra.md'
+        fields:
+          - {label: 'Hobbies', name: 'hobbies', widget: markdown}
