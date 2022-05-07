@@ -29,7 +29,7 @@
 - [x] Replace bootstrap with tailwindcss :art:
 - [x] Replace font-awesome icons with vectors :heart_decoration:
 - [x] Split up the page sections into components
-- [ ] Implement nuxt/content & netlify cms
+- [x] Implement nuxt/content & netlify cms
 - [ ] Add dark mood support :moon:
 - [ ] Make a video demo & share with community :arrow_forward:
 - [ ] Add metadata
