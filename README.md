@@ -31,8 +31,8 @@
 - [x] Split up the page sections into components
 - [x] Implement nuxt/content & netlify cms
 - [x] Add dark mood support :moon:
-- [ ] Make a demo & share with community :heavy_check_mark:
 - [ ] Add metadata
+- [ ] Make a demo & share with community :heavy_check_mark:
 - [ ] Optimize CSS
 - [ ] Optimize the printable version :printer:
 - [ ] Emoji support
@@ -48,14 +48,13 @@ This template is designed to be hosted using Netlify and so that's what these in
 
 Before starting it might be useful to familiarise yourself with [Netlify CMS](https://netlifycms.com), [Markdown](https://www.markdownguide.org/getting-started) and [Netlify](https://netlify.com/).
 
-### Step 1 - Deploy To Netlify
+### Step 1 - Click the magic button:
 
-Create a repository on GitHub to hold your files and host your resume.
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/CODE-BR3AKER/NuxtResume)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/CODE-BR3AKER/NuxtResume&stack=cms)
 
 ### Step 2 - Connect your github
 
-Copy this project to your own account.
+Login to your github account to create your own copy of the project.
 
 ### Step 3 - Publish it
 
@@ -63,7 +62,8 @@ Publish it & change your website name if wanted.
 
 ### Step 4 - Admin & configuration
 
-1. Add a new user from netlify identity in settings.
+1. Enable netlify identity & github gateway from settings (in your netlify dashboard).
+2. Add a new user from netlify identity tab.
 2. Now navigate to `[your-site-url]/admin` , and create a password.
 3. Edit the collections & hit publish :tada:
 
