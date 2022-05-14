@@ -16,7 +16,7 @@
 - :printer: Printable
 - :hourglass: Setup in less than 3 min
 - :iphone: Responsive
-- :moon: ~~Dark mood~~
+- :moon: Dark mood
 
 ----
 
@@ -30,8 +30,8 @@
 - [x] Replace font-awesome icons with vectors :heart_decoration:
 - [x] Split up the page sections into components
 - [x] Implement nuxt/content & netlify cms
-- [ ] Add dark mood support :moon:
-- [ ] Make a video demo & share with community :arrow_forward:
+- [x] Add dark mood support :moon:
+- [ ] Make a demo & share with community :heavy_check_mark:
 - [ ] Add metadata
 - [ ] Optimize CSS
 - [ ] Optimize the printable version :printer:
@@ -48,29 +48,24 @@ This template is designed to be hosted using Netlify and so that's what these in
 
 Before starting it might be useful to familiarise yourself with [Netlify CMS](https://netlifycms.com), [Markdown](https://www.markdownguide.org/getting-started) and [Netlify](https://netlify.com/).
 
-### Step 1 - GitHub
-Start by creating an account on [GitHub](https://github.com/join)
+### Step 1 - Deploy To Netlify
 
-### Step 2 - Create Repository
 Create a repository on GitHub to hold your files and host your resume.
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/CODE-BR3AKER/NuxtResume)
 
-### Step 3 - Download Resume Template
-Download this rpoject as zip and extract it into the git repository you have just created.
+### Step 2 - Connect your github
 
-### Step 4 - Push it
-Commit and push the resume template to github
-```
-$ git add --all
-$ git commit -m "Initial resume setup"
-$ git push -u origin main
-```
-### Step 5 - Netlify setup
+Copy this project to your own account.
 
-1. Create a netlify account if not already.
-2. Link your github & add the resume respository as a new site.
-3. Enable netlify identity (to use the CMS) & add a user from settings.
-You should now be able to see the demo resume template using this theme at `[your-site-name].netlify.app`
-4. Now navigate to `[your-site-url]/admin` , edit the information & hit publish :tada:
+### Step 3 - Publish it
+
+Publish it & change your website name if wanted.
+
+### Step 4 - Admin & configuration
+
+1. Add a new user from netlify identity in settings.
+2. Now navigate to `[your-site-url]/admin` , and create a password.
+3. Edit the collections & hit publish :tada:
 
 ----
 

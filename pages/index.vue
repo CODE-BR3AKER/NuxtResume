@@ -19,18 +19,9 @@
           :skill_2="about.skill_2"
           :image="about.picture"
         />
-        <Projects
-          v-if="config.sections.projects"
-          :projects="projects"
-        />
-        <Experience
-          v-if="config.sections.experience"
-          :jobs="experience"
-        />
-        <Education
-          v-if="config.sections.education"
-          :universities="education"
-        />
+        <Projects v-if="config.sections.projects" :projects="projects" />
+        <Experience v-if="config.sections.experience" :jobs="experience" />
+        <Education v-if="config.sections.education" :universities="education" />
         <Extra v-if="config.sections.extra" :extra="extra" />
       </div>
     </main>
@@ -58,8 +49,18 @@ export default {
   },
   head() {
     return {
-      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
+      script: [
+        { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" },
+      ],
     };
+  },
+  mounted() {
+    if (
+      window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches
+    ) {
+      document.body.classList.add("dark");
+    }
   },
 };
 </script>
