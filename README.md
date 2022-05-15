@@ -31,8 +31,8 @@
 - [x] Split up the page sections into components
 - [x] Implement nuxt/content & netlify cms
 - [x] Add dark mood support :moon:
-- [ ] Add metadata
-- [ ] Make a demo & share with community :heavy_check_mark:
+- [x] Add metadata
+- [x] Make a demo & share with community :heavy_check_mark:
 - [ ] Optimize CSS
 - [ ] Optimize the printable version :printer:
 - [ ] Emoji support
